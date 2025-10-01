@@ -1,1 +1,54 @@
-/*  your css code here. If applicable */
+#head {
+  text-align: center;
+}
+#head1 {
+  color: blue;
+}
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+#submit {
+  background-color: blue;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+.form-group {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.table thead tr {
+  border-bottom: 2px solid black;  /* bottom border only under heading */
+}
+.table th {
+  border: none;
+  text-align: center;
+  padding: 10px;
+  background: none;
+}
+.table td {
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+.table tbody tr {
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+}
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
